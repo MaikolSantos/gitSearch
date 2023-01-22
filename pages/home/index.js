@@ -36,7 +36,7 @@ function renderImgRecentUsers(user) {
   li.addEventListener('click', (event) => {
     const user = event.currentTarget.dataset.userName
     localStorage.setItem("user", user);
-    window.location.pathname = "pages/profile/";
+    window.location.pathname = "gitSearch/pages/profile/";
   })
 
   return li;
