@@ -95,6 +95,6 @@ async function handleEventForm(event) {
       localStorage.setItem("recent", recentUsersToJson);
     }
 
-    window.location.pathname = "pages/profile/";
+    window.location.pathname = "/gitSearch/pages/profile/";
   }
 }
