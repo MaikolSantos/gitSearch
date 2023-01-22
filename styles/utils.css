@@ -1,0 +1,7 @@
+.hidden {
+  display: none;
+}
+
+.border-brand-2 {
+  border: 0.063rem solid var(--color-brand-2);
+}
